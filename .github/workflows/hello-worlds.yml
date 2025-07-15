@@ -12,7 +12,7 @@ on:
 
 jobs:
   first_hello:
-    uses: hrk-m/worker-github-actions-workflow/.github/workflows/hello-world.yml@v0.0.1
+    uses: hrk-m/worker-github-actions-workflow/.github/workflows/hello-world.yml@v0.0.2
 
   second_hello:
     runs-on: ubuntu-latest
