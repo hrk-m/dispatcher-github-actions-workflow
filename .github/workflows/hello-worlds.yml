@@ -1,3 +1,9 @@
+# Hello World デモワークフロー
+# 外部ワークフローの呼び出しと連続実行のサンプル
+# 
+# ジョブ構成:
+# 1. first_hello  -> 外部ワークフローを呼び出し
+# 2. second_hello -> first_hello完了後にメッセージを出力
 name: hello world
 
 on:
